@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4311D61E5B0A6200671372 /* TrueLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4311D51E5B0A6200671372 /* TrueLoveViewController.swift */; };
+		EC4311E61E5B11CC00671372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4311E51E5B11CC00671372 /* Assets.xcassets */; };
 		EC5118851E59D05D00988FA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5118841E59D05D00988FA7 /* AppDelegate.swift */; };
-		EC5118871E59D05D00988FA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5118861E59D05D00988FA7 /* ViewController.swift */; };
 		EC51188A1E59D05D00988FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5118881E59D05D00988FA7 /* Main.storyboard */; };
-		EC51188C1E59D05D00988FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC51188B1E59D05D00988FA7 /* Assets.xcassets */; };
 		EC51188F1E59D05D00988FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC51188D1E59D05D00988FA7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC4311D51E5B0A6200671372 /* TrueLoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueLoveViewController.swift; sourceTree = "<group>"; };
+		EC4311E51E5B11CC00671372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5118811E59D05D00988FA7 /* iOSSwiftLab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSwiftLab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5118841E59D05D00988FA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC5118861E59D05D00988FA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC5118891E59D05D00988FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC51188B1E59D05D00988FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC51188E1E59D05D00988FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5118901E59D05D00988FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				EC5118841E59D05D00988FA7 /* AppDelegate.swift */,
-				EC5118861E59D05D00988FA7 /* ViewController.swift */,
 				EC5118881E59D05D00988FA7 /* Main.storyboard */,
-				EC51188B1E59D05D00988FA7 /* Assets.xcassets */,
 				EC51188D1E59D05D00988FA7 /* LaunchScreen.storyboard */,
 				EC5118901E59D05D00988FA7 /* Info.plist */,
+				EC4311E51E5B11CC00671372 /* Assets.xcassets */,
+				EC4311D51E5B0A6200671372 /* TrueLoveViewController.swift */,
 			);
 			path = iOSSwiftLab3;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC51188F1E59D05D00988FA7 /* LaunchScreen.storyboard in Resources */,
-				EC51188C1E59D05D00988FA7 /* Assets.xcassets in Resources */,
+				EC4311E61E5B11CC00671372 /* Assets.xcassets in Resources */,
 				EC51188A1E59D05D00988FA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5118871E59D05D00988FA7 /* ViewController.swift in Sources */,
 				EC5118851E59D05D00988FA7 /* AppDelegate.swift in Sources */,
+				EC4311D61E5B0A6200671372 /* TrueLoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +296,7 @@
 				EC5118951E59D05D00988FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
