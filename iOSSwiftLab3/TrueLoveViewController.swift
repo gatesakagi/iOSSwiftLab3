@@ -34,7 +34,7 @@ class TrueLoveViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
                 yesImgView.isHidden = true
                 noImgView.isHidden = false
             }
-            timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.update), userInfo: nil, repeats: true);
+            timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.update), userInfo: nil, repeats: false);
         } else {
             let alertController = UIAlertController(title: "您尚有資料尚未選擇", message: "記得再檢查一下哦！", preferredStyle: UIAlertControllerStyle.alert)
             
